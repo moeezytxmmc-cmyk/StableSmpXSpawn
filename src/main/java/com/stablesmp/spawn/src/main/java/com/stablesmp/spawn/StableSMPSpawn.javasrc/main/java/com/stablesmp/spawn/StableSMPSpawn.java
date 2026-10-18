@@ -226,4 +226,3 @@ public final class StableSMPSpawn extends JavaPlugin implements Listener, Comman
         if(back!=null && p.isOnline()) p.teleport(back); if(contents!=null) p.getInventory().setContents(contents); if(armor!=null) p.getInventory().setArmorContents(armor); if(level!=null) p.setLevel(level); if(xp!=null) p.setExp(xp);
     }
 }
-￼Enter
