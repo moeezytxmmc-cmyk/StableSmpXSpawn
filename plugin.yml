@@ -1,0 +1,15 @@
+name: StableSMPXSpawn
+version: 1.0.0
+main: com.stablesmp.spawn.StableSMPSpawn
+api-version: '1.21'
+author: StableSMP
+description: StableSMP floating spawn, protected hub, NPC GUIs, and crystal duel queue.
+commands:
+  stablespawn:
+    description: Setup and manage the StableSMPX spawn
+    usage: /stablespawn <setup|setarena1|setarena2|spawn|reload>
+    permission: stablesmp.admin
+permissions:
+  stablesmp.admin:
+    description: Manage StableSMPX spawn and duel arena
+    default: op

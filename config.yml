@@ -1,0 +1,17 @@
+# Run /stablespawn setup while standing where you want the floating spawn centered.
+spawn:
+  world: ''
+  x: 0.5
+  y: 181.0
+  z: 0.5
+  protection-radius: 32
+  build-on-setup: true
+npcs:
+  sell: {x: -5.5, y: 181.0, z: 0.5}
+  auction: {x: 0.5, y: 181.0, z: 5.5}
+  duel: {x: 5.5, y: 181.0, z: 0.5}
+duel:
+  world: ''
+  arena1: {x: 100.5, y: 100.0, z: 100.5, yaw: 0.0, pitch: 0.0}
+  arena2: {x: 110.5, y: 100.0, z: 100.5, yaw: 180.0, pitch: 0.0}
+  queue-timeout-seconds: 180
